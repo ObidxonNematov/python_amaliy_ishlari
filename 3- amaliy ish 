@@ -1,0 +1,9 @@
+a=float(input("istalgan sonni kiriting="))
+b=float(input("istalgan sonni kiriting="))
+c=float(input("istalgan sonni kiriting="))
+if a>0:
+    print("a sonini qiymati=",a**2)
+if b>0:
+    print("b sonini qiymati=",b**2)
+if c>0:
+    print("c sonini qiymati=",c**2)

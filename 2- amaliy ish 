@@ -1,0 +1,10 @@
+a=int(input("istalgan sonni kiriting="))
+b=int(input("istalgan sonni kiriting="))
+c=int(input("istalgan sonni kiriting="))
+d=c
+c=b
+b=a
+a=d
+print(a)
+print(b)
+print(c)

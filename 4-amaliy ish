@@ -1,0 +1,68 @@
+number = int(input("Ixtiyoriy 3 xonaliy son kirting>>>"))
+boshi = number//100
+orta = number//10%10
+oxiri = number%100%10
+
+start = ''
+match boshi:
+    case 1:
+        start = "Bir yuzi"
+    case 2:
+        start = "Ikki yuzi"
+    case 3:
+        start = "Uch yuzi"
+    case 4:
+        start = "To'rt yuzi"
+    case 5:
+        start = "Besh yuzi"
+    case 6:
+        start = "Olti yuzi"
+    case 7:
+        start = "Yetti yuzi"
+    case 8:
+        start = "Sakkiz yuzi"
+    case 9:
+        start = "To'qqiz yuzi"
+# print(start)
+center = ''
+match orta:
+    case 1:
+        center = "o'n"
+    case 2:
+        center = "Yigirma"
+    case 3:
+        center = "o'ttiz"
+    case 4:
+        center = "qirq"
+    case 5:
+        center = "ellik"
+    case 6:
+        center = "Otmish"
+    case 7:
+        center = "Yetmish"
+    case 8:
+        center = "sakson"
+    case 9:
+        center = "To'qson"
+# print(center)
+TheEnd = ''
+match oxiri:
+    case 1:
+        TheEnd = "Bir"
+    case 2:
+        TheEnd = "Ikki"
+    case 3:
+        TheEnd = "Uch"
+    case 4:
+        TheEnd = "To'rt"
+    case 5:
+        TheEnd = "Besh"
+    case 6:
+        TheEnd = "Olti"
+    case 7:
+        TheEnd = "Yetti"
+    case 8:
+        TheEnd = "Sakkiz"
+    case 9:
+        TheEnd = "To'qqiz"
+print(start,center,TheEnd)

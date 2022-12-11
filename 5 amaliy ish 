@@ -1,0 +1,11 @@
+def kvadrat(a):
+    royxat = []
+    for n in range(1,a+1):
+        royxat.append(n)
+    if a**(1/2) in royxat:
+        answer="True"
+    else:answer="False"
+    return answer
+
+for n in range(1,4):
+    print(kvadrat(int(input(f"{n}-sonni kiriting>"))))
